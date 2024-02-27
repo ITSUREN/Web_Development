@@ -150,5 +150,7 @@ project-root/
     ### Address
     - will tell the browser that the content is a physical address
     - doesn't have function like abbreviate but has semantic meaning
-    
+    ```html
+    <address>Struga 18, 26-600, Radom, PL 26-600</address>
+    ```
 
