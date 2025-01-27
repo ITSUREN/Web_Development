@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      .myTbl {
+        border-collapse: collapse;
+        text-align: left;
+      }
+      .myTbl th, .myTbl td {
+        border: 1px solid grey;
+        padding: 30px;
+      }
+      .myTbl td[rowspan] {
+        vertical-align: top; /* Aligns row-spanned cells to the top */
+      }
+      .myTbl thead tr {
+        background-color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="myTbl">
+      <thead>
+        <tr>
+          <th scope="col">NAME</th>
+          <th scope="col">SUBJECT</th>
+          <th scope="col">MARKS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Hillary</td>
+          <td>Advanced Web</td>
+          <td>75</td>
+        </tr>
+        <tr>
+          <td>Operating System</td>
+          <td>60</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Lary</td>
+          <td>Advanced Web</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>Operating System</td>
+          <td>75</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="2">Total Average: 72.5</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+
